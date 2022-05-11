@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(247, 240, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    background-color: #d1fae2;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* -------------------------
+        Header Start
+----------------------------*/
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: left;
+}
+
+.header-bio{
+    color: white;
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.div-clear{
+    clear: both;
+}
+
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* -------------------------
+        Main Start
+----------------------------*/
+
+.div-left{
+    width: 22%;
+    float: left;
+}
+
+.div-right{
+    width: 78%;
+    float:left;
+}
+p{
+    text-align: justify;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+.education-template-left{
+    width: 48%;
+    float: left;
+}
+.education-template-right{
+    width: 48%;
+    float: right;
+}
+
+
+/* -------------------------
+        Footer Start
+----------------------------*/
+
+.bottom-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    text-decoration: none;
+    color:teal;
+    margin: 20px;
+}
+.bottom-container a:hover{
+    text-decoration: underline;
+    color:rgb(244, 248, 248);    
+}
+.bottom-container p{
+    text-decoration: none;
+    color:teal;
+    text-align: center;
+    margin-top: 20px;
+}
